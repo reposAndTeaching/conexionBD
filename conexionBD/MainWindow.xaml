@@ -1,0 +1,15 @@
+﻿<Window x:Class="conexionBD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:conexionBD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid>
+        <Label x:Name="labelCadena" Content="" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="772"/>
+        <Label x:Name="labelBD" Content="" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Height="372" Width="772"/>
+        <Button x:Name="buttonPruebas" Content="Generar Prueba" HorizontalAlignment="Left" Margin="26,413,0,0" VerticalAlignment="Top" Width="265" Height="96" Click="buttonPruebas_Click"/>
+
+    </Grid>
+</Window>
